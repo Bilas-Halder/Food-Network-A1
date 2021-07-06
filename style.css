@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .second{
+    display: none;
+}
+.third{
+    display: none;
+}
+.fourth{
+    display: none;
+}
+footer{
+    display: none;
+} */
+
+.flexbox{
+    display: flex;
+}
+.flexbox div{
+    width: 40%;
+}
+.flexbox div img{
+    width: 100%;
+}
