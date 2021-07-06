@@ -76,7 +76,7 @@ p{
 
 .left-1st{
     width: 50%;
-    padding: 4.5em 5% 0px 6.5%;
+    padding: 4.5em 5% 0em 6.5%;
     
 }
 .left-1st h1{
@@ -85,20 +85,17 @@ p{
 .left-1st h1 span{
     color: #FB974B;
 }
-.btn{
-
+.btn a{
     display: inline-block;
     background-image: linear-gradient(to right, #FB954B,#FE492E);
     padding: 18px 40px;
     margin-top: 40px;
     border-radius: 25px;
 
-}
-.btn a{
     color: white;
     text-decoration: none;
 }
-.btn:hover{
+.btn a:hover{
     background-image: linear-gradient(to left, #FB954B,#FE492E);
 }
 
@@ -161,13 +158,11 @@ p{
     margin-bottom: 1.6em;
 }
 
-
-
-.recipie-flex{
+.recipe-flex{
     margin: 0px 6.5%;
 }
 
-.recipie{
+.recipe{
     width: 377px;
     background-color: white;
     border: 1.4em solid white;
@@ -176,15 +171,15 @@ p{
     margin: 0px 10px;
 }
 
-.recipie img
+.recipe img
 {
     width: 100%;
 }
-.recipie h3 {
+.recipe h3 {
     font-weight: 900;
     font-size: 1.7em;
 }
-.recipie p{
+.recipe p{
     color: black;
     font-weight: 400;
     text-align: left;
@@ -226,9 +221,6 @@ p{
     color: #555555;
     margin-top: -2em;
 }
-
-
-
 
 /* footer */
 
