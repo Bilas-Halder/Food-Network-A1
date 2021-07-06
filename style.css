@@ -4,13 +4,53 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.menu-bar{
+/* Menu Bar */
+.menu{
     display: flex;
     width: 100%;
     height: 4em;
     position: fixed;
     background-image: linear-gradient(to right, #FB954B,#FE492E);
 }
+
+.logo{
+    width: 20%;
+    margin-left: 6em;
+}
+.logo img{
+    width: 45%;
+}
+.menu-bar{
+    margin-left: 9em;
+    margin-top: 0.5em;
+}
+.menu-bar ul{
+    font-weight: 700;
+    margin: 0px 0px;
+}
+.menu-bar ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 1em 0em;
+    border-left: 2px solid #5a5a5a;
+}
+.menu-bar ul #last-menu{
+    border-right: 2px solid #5a5a5a;
+}
+.menu-bar ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0em 2em;
+
+}
+.menu-bar ul li:hover{
+    background-color: #FB8444;
+}
+
+/* Menu Bar end */
+
+
 .flexbox{
     display: flex;
 }
@@ -58,6 +98,10 @@ p{
     color: white;
     text-decoration: none;
 }
+.btn:hover{
+    background-image: linear-gradient(to left, #FB954B,#FE492E);
+}
+
 .right-1st{
     padding-right: 3em;
 }
